@@ -6,8 +6,8 @@
   </template>
   
   <script>
-  import OverviewSection from '@/components/OverviewSection.vue';
-import HeroSection from '../components/HeroSection.vue';
+    import OverviewSection from '@/components/OverviewSection.vue';
+    import HeroSection from '../components/HeroSection.vue';
 
   export default {
     name: 'HomePage',
