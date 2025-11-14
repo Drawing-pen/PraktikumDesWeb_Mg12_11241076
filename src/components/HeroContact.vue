@@ -9,7 +9,7 @@
         Contact with Us
     </h1>
     <p class="text-xl md:text-2xl lg:text-2xl mb-6 font-gupter">
-        Let;s Work Together!
+        Let's Work Together!
     </p>
     </div>
     </section>
