@@ -30,23 +30,28 @@
   
 <script>
   export default {
-    name: 'MapsnInfo'
+    name: 'MapsnInfo',
+
+    data() {
+      return {
+        features: [
+        {
+          name: 'Email: ',
+          description: 'BookeryBakery@gmail.com',
+          icon: 'icon-[ic--baseline-email]', 
+        },
+        {
+          name: 'Phone: ',
+          description: '021-1234567',
+          icon: 'icon-[mingcute--phone-fill]', 
+        },
+        {
+          name: 'Location:',
+          description: 'Jl. MH Thamrin No. 10, Jakarta Pusat',
+          icon: 'icon-[basil--location-solid]', 
+        },
+        ], 
+      }
+    }
   }
-  const features = [
-    {
-      name: 'Email: ',
-      description: 'BookeryBakery@gmail.com',
-      icon: 'icon-[ic--baseline-email]', 
-    },
-    {
-      name: 'Phone: ',
-      description: '021-1234567',
-      icon: 'icon-[mingcute--phone-fill]', 
-    },
-    {
-      name: 'Location:',
-      description: 'Jl. MH Thamrin No. 10, Jakarta Pusat',
-      icon: 'icon-[basil--location-solid]', 
-    },
-  ]
 </script>
